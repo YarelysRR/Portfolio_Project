@@ -1,0 +1,25 @@
+:root {
+  --primary-color: white;
+  --secondary-color: #;
+}
+
+body {
+  background-color: black;
+}
+
+H1 {
+  color: var(--primary-color);
+}
+
+.bg_black {
+  color: black;
+}
+
+.footer_links {
+  background-color: brown;
+  padding: 50px;
+}
+
+.logo_size {
+  max-width: 100px;
+}
