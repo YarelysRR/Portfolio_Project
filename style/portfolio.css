@@ -1,14 +1,22 @@
 :root {
   --primary-color: white;
   --secondary-color: #;
+  --primary-font: roboto;
 }
 
 body {
   background-color: black;
 }
 
-H1 {
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+H1,
+h3 {
   color: var(--primary-color);
+  text-align: center;
+  font-family: var(--primary-font);
 }
 
 .bg_black {
