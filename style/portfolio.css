@@ -1,7 +1,6 @@
 :root {
   --primary-color: white;
-  --secondary-color: #6c63ff;
-  --primary-font: 
+  --secondary-color: blue;
   --box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
 }
 
@@ -26,7 +25,7 @@ p {
   color: var(--primary-color);
   margin: 0;
   line-height: 1.5;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg_black {
@@ -57,6 +56,10 @@ p {
 
 .img-size {
   height: 100%;
+}
+
+.img-size-port {
+  height: 95%;
 }
 
 .contact_me,
@@ -98,11 +101,12 @@ p {
   background-color: rgb(59, 2, 2);
   padding: 20px;
 }
-.icons {
-    color:black;
-    padding:20px;
-}
 
+.icons {
+  color: black;
+  padding: 20px;
+  font-size: 25px;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -128,5 +132,8 @@ p {
 
   .img-mob {
     display: none;
+  }
+  .dropdown-menu {
+    position: absolute;
   }
 }
