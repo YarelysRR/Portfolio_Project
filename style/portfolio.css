@@ -64,7 +64,7 @@ p {
 
 .contact_me,
 .lbut_text {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
